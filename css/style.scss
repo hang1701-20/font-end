@@ -1,0 +1,385 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body{
+    overflow-x: hidden;
+    font-family: Tahoma;
+    .container-full{
+        margin: auto;
+        padding: 0;
+        max-width: 100%;
+        .banner{
+            max-width: 40%;
+            float: left;
+            img{
+              margin-top: -710px;
+                }
+        }
+        .nav{
+            max-width: 60%;
+        .log-in{
+            margin: auto;
+            float: right;
+            width: 450px;
+            height: 500px;
+            border: 1px solid #dadce0;
+            margin-top: 70px;
+            border-radius: 10px;
+            .log-in__top{
+                height: 37px;
+                border-bottom: 1px solid #dadce0;
+                span{
+                    margin-left: 5px;
+                    line-height: 37px;
+                    color: #84878b;
+                    font-size: 15px;
+                }
+                img{
+                    margin-left: 20px;
+                    width: 18px;
+                }
+            }
+            .log-in__bottom{
+                padding-top: 50px;
+                .form{
+                    padding-top: 25px;
+                    .form-group{
+                        padding-left: 40px;
+                        label{
+                            text-align: center;
+                            font-size: 15px;
+                        }
+                        .form-control{
+                            width: 360px;
+                            height: 50px;
+                        } 
+                        .email{
+                            position: absolute;
+                            margin-top: -12px;
+                            padding-left: 10px;
+                        }
+                    }
+                    button{
+                       margin-left: 180px;
+                       margin-top: 20px;
+                    }
+                }
+            }
+
+        }
+    }
+}
+}
+//iphone 5/se
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    .container-full{
+        .banner{
+            img{
+                display: none !important;
+            }
+        }
+        .nav{
+                max-width: 100% !important;
+            .log-in{
+                border: none !important;
+                border-radius: 0px !important;
+                margin-top: 0px !important;
+                .log-in__bottom{
+                    padding-top: 50px;
+                    .form{
+                        padding-top: 25px;
+                        .form-group{
+                            padding-left: 10px !important;
+                            .form-control{
+                                width: 300px !important;
+                                height: 40px !important;
+                            } 
+                            a{
+                                font-size: 15px !important;
+                            }
+                        }
+                        button{
+                        margin-left: 90px !important;
+                        margin-top: 20px !important;
+                        width: 150px !important;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}
+// 6/7/8 doc
+@media (min-width: 375px) and (max-width: 677px) {
+    .container-full{
+        .banner{
+            img{
+                padding-top: 365px !important;
+                margin-left: -350px !important;
+            }
+        }
+        .nav{
+            max-width: 100% !important;
+        .log-in{
+            border: none !important;
+            border-radius: 0px !important;
+            margin-top: 0px !important;
+            .log-in__bottom{
+                padding-top: 50px;
+                .form{
+                    padding-top: 25px;
+                    .form-group{
+                        padding-left: 25px !important;
+                        .form-control{
+                            width: 320px !important;
+                            height: 50px !important;
+                            padding-left: 10px !important;
+                        } 
+                        a{
+                            font-size: 15px !important;
+                        }
+                    }
+                    button{
+                    margin-left: 90px !important;
+                    margin-top: 20px !important;
+                    width: 150px !important;
+                    }
+                }
+            }
+
+        }
+    }
+    } 
+}
+
+// 6/7/8 plus doc
+@media (min-width: 375px) and (max-width: 677px) {
+    .container-full{
+        .banner{
+            img{
+                padding-top: 365px !important;
+                margin-left: -350px !important;
+            }
+        }
+        .nav{
+            max-width: 100% !important;
+        .log-in{
+            border: none !important;
+            border-radius: 0px !important;
+            margin-top: 0px !important;
+            .log-in__bottom{
+                padding-top: 50px;
+                .form{
+                    padding-top: 25px;
+                    .form-group{
+                        padding-left: 25px !important;
+                        .form-control{
+                            width: 360px !important;
+                            height: 50px !important;
+                            padding-left: 10px !important;
+                        } 
+                        a{
+                            font-size: 15px !important;
+                        }
+                    }
+                    button{
+                    margin-left: 120px !important;
+                    margin-top: 20px !important;
+                    width: 150px !important;
+                    height: 40px !important;
+                    }
+                }
+            }
+
+        }
+    }
+    } 
+}
+// iphone x
+@media (min-width: 375px) and (max-width: 812px) {
+    .container-full{
+        .nav{
+                max-width: 100% !important;
+            .log-in{
+                border: none !important;
+                border-radius: 0px !important;
+                margin-top: 0px !important;
+                .log-in__bottom{
+                    padding-top: 50px;
+                    .form{
+                        padding-top: 25px;
+                        .form-group{
+                            padding-left: 20px !important;
+                            .form-control{
+                                width: 330px !important;
+                                height: 50px !important;
+                            } 
+                            a{
+                                font-size: 15px !important;
+                            }
+                        }
+                        button{
+                        margin-left: 110px !important;
+                        margin-top: 20px !important;
+                        width: 150px !important;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}
+//iphone 6/7/8 và 6/7/8 plus ngang
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+        .container-full{
+            .banner{
+                img{
+                    display: none !important;
+                }
+            }
+            .nav{
+                max-width: 100% !important;
+            .log-in{
+                margin-top: 50px !important;
+                margin-bottom: 50px !important;
+                .log-in__top{
+                    height: 37px;
+                    border-bottom: 1px solid #dadce0;
+                    span{
+                        margin-left: 5px;
+                        line-height: 37px;
+                        color: #84878b;
+                        font-size: 15px;
+                    }
+                    img{
+                        margin-left: 20px;
+                        width: 18px;
+                    }
+                }
+                .log-in__bottom{
+                    padding-top: 50px;
+                    .form{
+                        padding-top: 25px;
+                        .form-group{
+                            padding-left: 40px;
+                            label{
+                                text-align: center;
+                                font-size: 15px;
+                            }
+                            .form-control{
+                                width: 360px;
+                                height: 50px;
+                            } 
+                            .email{
+                                position: absolute;
+                                margin-top: -12px;
+                                padding-left: 10px;
+                            }
+                        }
+                        button{
+                           margin-left: 180px;
+                           margin-top: 20px;
+                        }
+                    }
+                }
+    
+            }
+        }
+    }
+}
+//ipad doc
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .container-full{
+        max-width: 1199.98px;
+        min-width: 992px;
+        .banner{
+            img{
+                padding-top: 365px !important;
+                margin-left: -350px !important;
+            }
+        }
+        .log-in{
+            margin-top: 200px !important;
+        }
+    } 
+}
+@media all and (min-device-width: 1024px) and (max-device-height: 768px) and (orientation:landscape) {
+   
+}
+// Large devices (desktops, 992px and up)
+//ipad pro doc
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .container-full{
+        max-width: 1199.98px;
+        min-width: 992px;
+        .banner{
+            img{
+                padding-top: 710px !important;
+            }
+        }
+        .log-in{
+           margin-top: 350px !important;
+        }
+    }
+}
+//ipad pro ngang
+@media only screen and (min-device-width: 1366px) and (max-device-height: 1024px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: landscape) {
+    .container-full{
+        max-width: 1366px !important;
+        min-width: 1024px !important;
+        .banner{
+            img{
+                padding-top: 360px !important;
+            }
+        }
+        .log-in{
+            margin-top:200px !important;
+            width: 550px !important;
+            height: 600px !important;
+            margin-left: 150px !important;
+            .log-in__top{
+                height: 50px !important;
+                span{
+                    line-height: 50px !important;
+                }
+                img{
+                    margin-left: 20px;
+                    width: 18px;
+                }
+            }
+            .log-in__bottom{
+                padding-top: 50px;
+                .form{
+                    .form-group{
+                        .form-control{
+                            width: 460px !important;
+                            line-height: 50px;
+                        } 
+                        .email{
+                            position: absolute;
+                            margin-top: -12px;
+                            padding-left: 10px;
+                        }
+                    }
+                    button{
+                        width: 200px;
+                        height: 50px;
+                        margin-left: 180px;
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}
